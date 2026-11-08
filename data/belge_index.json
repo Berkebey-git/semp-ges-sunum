@@ -1,0 +1,168 @@
+{
+  "project": "SEMP GRUP GES 3D Sunum",
+  "total_documents": 20,
+  "total_pages": 289,
+  "notes": "PDF metinleri sayfa numarasıyla kaynaklarda bulunur; teknik/hukuki/finansal iddiaları yeniden üretirken ilgili sayfa ve güncellik kontrolü şart.",
+  "documents": [
+    {
+      "id": 1,
+      "title": "KANUNLAR VE YÖNETMELİKLER",
+      "pdf": "pdfler/1.  KANUNLAR VE YÖNETMELİKLER.pdf",
+      "text": "sources/01.txt",
+      "pages": 17,
+      "sha256_pdf": "2fe7c6f046b4da4e25996d5c44e4348a1b5bbb9d15df98ca3a7a263cddac244b"
+    },
+    {
+      "id": 2,
+      "title": "ŞİRKET KURULUŞU VE TİCARİ FAALİYETLER",
+      "pdf": "pdfler/2.  ŞİRKET KURULUŞU VE TİCARİ FAALİYETLER.pdf",
+      "text": "sources/02.txt",
+      "pages": 16,
+      "sha256_pdf": "1324851ddd2f054298e14e9ece2abcfd07f396ffd1e77b7c135813b4ebc30e2b"
+    },
+    {
+      "id": 3,
+      "title": "OFİS, DÜKKÂN VE DEPO AÇILIŞI",
+      "pdf": "pdfler/3.  OFİS, DÜKKÂN VE DEPO AÇILIŞI.pdf",
+      "text": "sources/03.txt",
+      "pages": 20,
+      "sha256_pdf": "642b3bd4e5fb3c3834439f1ba4ccd7174a2bc0329973de171a425d3d44fbbf24"
+    },
+    {
+      "id": 4,
+      "title": "FAALİYET ALANLARI VE İŞ MODELLERİ",
+      "pdf": "pdfler/4.  FAALİYET ALANLARI VE İŞ MODELLERİ.pdf",
+      "text": "sources/04.txt",
+      "pages": 13,
+      "sha256_pdf": "237eb1323211333f2c68fd3caff61fe26f0bb0e27a58a6a1c7bb1814794fb4f3"
+    },
+    {
+      "id": 5,
+      "title": "LİSANSLAR, İZİNLER VE YETKİ BELGELERİ",
+      "pdf": "pdfler/5.  LİSANSLAR, İZİNLER VE YETKİ BELGELERİ.pdf",
+      "text": "sources/05.txt",
+      "pages": 22,
+      "sha256_pdf": "7ab3f0855d51341384dfc4dbe55770fc2a80322004b67ff27c0eb1d6afc601d6"
+    },
+    {
+      "id": 6,
+      "title": "PERSONEL VE MÜHENDİSLİK KADROSU",
+      "pdf": "pdfler/6.  PERSONEL VE MÜHENDİSLİK KADROSU.pdf",
+      "text": "sources/06.txt",
+      "pages": 11,
+      "sha256_pdf": "751ef64b44ba236333166c531ae78069b9d211938a03d5158ac1fd9f756c519f"
+    },
+    {
+      "id": 7,
+      "title": "GES PROJELENDİRME SÜREÇLERİ",
+      "pdf": "pdfler/7. 🏗️ GES PROJELENDİRME SÜREÇLERİ.pdf",
+      "text": "sources/07.txt",
+      "pages": 9,
+      "sha256_pdf": "55708533d83236987e1a261e99585b5013490099eeda9ec062b6c98989fc9066"
+    },
+    {
+      "id": 8,
+      "title": "GES BAŞVURU VE RESMÎ ONAY SÜREÇLERİ",
+      "pdf": "pdfler/8.  GES BAŞVURU VE RESMÎ ONAY SÜREÇLERİ.pdf",
+      "text": "sources/08.txt",
+      "pages": 17,
+      "sha256_pdf": "fc0f26c10054489c544a5347accf4343d1f9d8bb72facc8f438c434a633b4e4a"
+    },
+    {
+      "id": 9,
+      "title": "ARAZİ, ÇATI VE İMAR İŞLEMLERİ",
+      "pdf": "pdfler/9.  ARAZİ, ÇATI VE İMAR İŞLEMLERİ.pdf",
+      "text": "sources/09.txt",
+      "pages": 12,
+      "sha256_pdf": "633718b95afcf75bd3a2ea5ebca13aee27760b363a880fb61ee03161e7bc2b69"
+    },
+    {
+      "id": 10,
+      "title": "EKİPMAN VE MALZEMELER",
+      "pdf": "pdfler/10.  EKİPMAN VE MALZEMELER.pdf",
+      "text": "sources/10.txt",
+      "pages": 12,
+      "sha256_pdf": "34455d355ee5f3ed3ef606c9bd23ca34dc89fdf62e745aca0212b461d81650dd"
+    },
+    {
+      "id": 11,
+      "title": "TEDARİKÇİLER VE ÜRETİCİ FİRMALAR",
+      "pdf": "pdfler/11.  TEDARİKÇİLER VE ÜRETİCİ FİRMALAR.pdf",
+      "text": "sources/11.txt",
+      "pages": 16,
+      "sha256_pdf": "d1a748e1ac84538e7e3f903dd189582390e6b1442569a24c3c2588a07b323703"
+    },
+    {
+      "id": 12,
+      "title": "TEKNİK STANDARTLAR VE KALİTE BELGELERİ",
+      "pdf": "pdfler/12.  TEKNİK STANDARTLAR VE KALİTE BELGELERİ.pdf",
+      "text": "sources/12.txt",
+      "pages": 14,
+      "sha256_pdf": "5770e46e61b25838a1532d1e81c04dac84c541b70c74e1c6b7ed2562028a46b7"
+    },
+    {
+      "id": 13,
+      "title": "MALİYETLER VE FİNANSAL PLANLAMA",
+      "pdf": "pdfler/13.  MALİYETLER VE FİNANSAL PLANLAMA.pdf",
+      "text": "sources/13.txt",
+      "pages": 13,
+      "sha256_pdf": "46b2b11fb5f5ea0edd146bd02f198a2e15af6b17af2144aec440fb5e1bda9d09"
+    },
+    {
+      "id": 14,
+      "title": "TEŞVİKLER, KREDİLER VE DEVLET DESTEKLERİ",
+      "pdf": "pdfler/14.  TEŞVİKLER, KREDİLER VE DEVLET DESTEKLERİ.pdf",
+      "text": "sources/14.txt",
+      "pages": 10,
+      "sha256_pdf": "452830f4384ae5014f88445f39a3a8933dd07a4cfbac288755cecc467e5e5538"
+    },
+    {
+      "id": 15,
+      "title": "SÖZLEŞMELER VE HUKUKİ BELGELER",
+      "pdf": "pdfler/15.  SÖZLEŞMELER VE HUKUKİ BELGELER.pdf",
+      "text": "sources/15.txt",
+      "pages": 11,
+      "sha256_pdf": "0a4b5f629d2ddf089205a5216c5118c3974f16879af5f4b7eff2b295cac4dce9"
+    },
+    {
+      "id": 16,
+      "title": "KURULUM, TEST VE DEVREYE ALMA",
+      "pdf": "pdfler/16.  KURULUM, TEST VE DEVREYE ALMA.pdf",
+      "text": "sources/16.txt",
+      "pages": 17,
+      "sha256_pdf": "398e17f614f106b4645e98baa1ac78dc35d02ba6d142f7610a9fea2cdcbcc4cc"
+    },
+    {
+      "id": 17,
+      "title": "İŞLETME, BAKIM VE SERVİS",
+      "pdf": "pdfler/17.  İŞLETME, BAKIM VE SERVİS.pdf",
+      "text": "sources/17.txt",
+      "pages": 15,
+      "sha256_pdf": "60b797032b339aa5d63b13ab0b26e4b4d7ad535d79df7c64bdc7cf91f6212edf"
+    },
+    {
+      "id": 18,
+      "title": "ELEKTRİK SATIŞI VE ENERJİ PİYASASI",
+      "pdf": "pdfler/18.  ELEKTRİK SATIŞI VE ENERJİ PİYASASI.pdf",
+      "text": "sources/18.txt",
+      "pages": 11,
+      "sha256_pdf": "4058b40d3c0567b6c91912c195fae78353dab9d34da7366515f27f5251544c8d"
+    },
+    {
+      "id": 19,
+      "title": "MÜŞTERİ BULMA, SATIŞ VE İHALELER",
+      "pdf": "pdfler/19.  MÜŞTERİ BULMA, SATIŞ VE İHALELER.pdf",
+      "text": "sources/19.txt",
+      "pages": 15,
+      "sha256_pdf": "70101e6c25e7574d2a42bf37652aabcda1e2cbf5d7018a530019d1a0d9d7853e"
+    },
+    {
+      "id": 20,
+      "title": "RİSKLER, SİGORTALAR VE UZUN VADELİ STRATEJİ",
+      "pdf": "pdfler/20. RİSKLER, SİGORTALAR VE UZUN VADELİ STRATEJİ.pdf",
+      "text": "sources/20.txt",
+      "pages": 18,
+      "sha256_pdf": "c9babc91652f8efe90e0f586c65ec3d8813d05564c1941cecf6470d2bf46c3f8"
+    }
+  ]
+}

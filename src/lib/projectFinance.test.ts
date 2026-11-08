@@ -1,0 +1,12 @@
+import { describe,expect,it } from "vitest";
+import { calculateEpc,calculateInvestor,DEFAULT_EPC,DEFAULT_INVESTOR,npv,irr } from "./projectFinance";
+import {precheck,panels,inverters} from "../data/equipment";
+describe("project economics",()=>{
+ it("reproduces B13 p5-6 EPC example and cash deficit",()=>{const o=calculateEpc(DEFAULT_EPC).outputs!;expect(o.direct).toBe(350000);expect(o.profit).toBe(36000);expect(o.workingCapital).toBeCloseTo(46000);expect(o.flows.at(-1)!.cumulative).toBeCloseTo(o.profit);});
+ it("keeps receipt schedule balanced when advance changes",()=>{const o=calculateEpc({...DEFAULT_EPC,advancePct:25}).outputs!;expect(o.flows.reduce((s,f)=>s+f.receipt,0)).toBeCloseTo(420000);expect(calculateEpc({...DEFAULT_EPC,advancePct:90}).outputs).toBeNull();});
+ it("calculates NPV and conventional IRR, including negative yield",()=>{expect(npv(.1,[-100,110])).toBeCloseTo(0);expect(irr([-100,110])).toBeCloseTo(.1);expect(irr([-100,90])).toBeCloseTo(-.1);expect(irr([-100,230,-132])).toBeNull();expect(irr([0,100])).toBeNull();expect(irr([-1e12,1e-12])).toBeNull();});
+ it("uses the original self-consumption formula in investor year 1",()=>{const o=calculateInvestor(DEFAULT_INVESTOR,500,725000).outputs!;expect(o.first.grossSavingsUsd).toBe(75400);expect(o.first.netContributionUsd).toBe(69400);expect(o.yearly).toHaveLength(25);expect(o.yearly[11].replacement).toBe(25000);expect(o.yearly[1].generation).toBe(721375);});
+ it("keeps real and nominal NPV equivalent",()=>{const i={...DEFAULT_INVESTOR,inflationPct:5};const o=calculateInvestor(i,500,725000).outputs!;expect(npv(o.nominalDiscountPct/100,[-i.capex,...o.yearly.map(y=>y.nominal)])).toBeCloseTo(o.npv!,5);});
+ it("rejects nonfinite, negative and out-of-range finance inputs",()=>{expect(calculateInvestor({...DEFAULT_INVESTOR,capex:-1},500,725000).outputs).toBeNull();expect(calculateInvestor(DEFAULT_INVESTOR,500,NaN).outputs).toBeNull();expect(calculateEpc({...DEFAULT_EPC,contract:NaN}).outputs).toBeNull();expect(calculateInvestor({...DEFAULT_INVESTOR,selfPct:101},500,725000).outputs).toBeNull();});
+});
+describe("catalog precheck",()=>{it("reproduces cold voltage and parallel current warnings",()=>{expect(precheck(panels[0],inverters[0],20,2,-10)!.voltagePass).toBe(false);expect(precheck(panels[1],inverters[0],20,2,-10)!.voltagePass).toBe(true);expect(precheck(panels[0],inverters[2],19,2,-10)!.currentPass).toBe(false);expect(precheck(panels[0],inverters[0],0,2,-10)).toBeNull();});});

@@ -1,0 +1,6 @@
+---
+description: SEMP Grup GES 3D sunumunun kaynak doğruluğu, sunum kalitesi ve aşamalı geliştirme standardı
+alwaysApply: true
+---
+
+Önce `AGENTS.md` ve `SUNUM_MIMARISI.md` dosyalarını oku. 20 PDF'nin tek bir yönetsel karar sunumuna dönüştürüldüğünü unutma. Belgelerin kaynak sayfası ve iddia türü bilinmeden sayısal/yasal iddia ekleme. `index.html` içindeki mevcut etkileşimleri bozmadan, her adımın sonunda testi çalıştır. Parçalı uygulama yap, büyük yeniden yazımlardan kaçın.

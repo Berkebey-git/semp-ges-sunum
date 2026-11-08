@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+!.env.example
+*.local
+*.log
+.DS_Store
+tmp/
+qa/screenshots/
+/*-onizleme.png
+pdfler/
+sources/
+prototip-v01.html
